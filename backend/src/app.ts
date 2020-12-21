@@ -4,7 +4,7 @@ import cors from "cors";
 import express from "express";
 
 const main = async () => {
-  const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 5000;
+  const PORT = process.env.API_PORT ? parseInt(process.env.API_PORT, 10) : 5000;
 
   const app = express();
 
