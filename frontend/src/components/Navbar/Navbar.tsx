@@ -9,7 +9,7 @@ const Navbar: FC<RouteComponentProps> = ({ location: { pathname } }) => {
 
   const links = [
     {
-      label: "A propos de nous",
+      label: "A propos",
       url: "/#",
       isActive: false,
     },
@@ -25,7 +25,7 @@ const Navbar: FC<RouteComponentProps> = ({ location: { pathname } }) => {
       <AppBar position="fixed" color="transparent">
         <Toolbar variant="dense" className={classes.toolbar}>
           <Link to="/" className={classes.brand}>
-            Moderne SPA
+            My SPA
           </Link>
           <div className={classes.links}>
             {links.map((link, index) => (

@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
       width: "100%",
       display: "flex",
       justifyContent: "space-between",
-      maxWidth: 800,
+      maxWidth: 1000,
     },
     brand: {
       color: "#000",
@@ -26,7 +26,6 @@ const useStyles = makeStyles((theme: Theme) =>
       display: "flex",
     },
     link: {
-      textTransform: "uppercase",
       cursor: "pointer",
       marginLeft: theme.spacing(2),
       color: "#000",

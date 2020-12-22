@@ -10,7 +10,7 @@ const AppRouter = () => {
   return (
     <Router>
       <Navbar />
-      <Box width="100%" maxWidth="800px" display="flex" marginTop="50px">
+      <Box width="100%" maxWidth="1000px" display="flex" marginTop="50px">
         <Switch>
           <Route path={[CREATE_USER_URL, EDIT_USER_URL]} strict exact>
             <CreateEditUser />
