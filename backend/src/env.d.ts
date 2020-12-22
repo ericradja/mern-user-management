@@ -5,6 +5,7 @@ declare namespace NodeJS {
     MONGO_PORT: string;
     MONGO_INITDB_ROOT_USERNAME: string;
     MONGO_INITDB_ROOT_PASSWORD: string;
+    MONGO_INITDB_DATABASE: string;
     MONGO_USER: string;
     MONGO_PASS: string;
     MONGO_DBNAME: string;
